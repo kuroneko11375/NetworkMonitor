@@ -328,21 +328,10 @@ del gui_reboot_count.json
 - ✅ GUI圖形介面
 - ✅ 多版本支援（GUI/簡化/完整）
 
-## 作者資訊
-
-- **作者**: SchwarzeKatze_R
-- **版本**: v1.1
-- **更新日期**: 2025-09-10
-- **授權**: MIT License
-
-## 技術支援
-
-如果遇到問題，請：
-1. 先運行 `python test_detection.py` 診斷問題
-2. 查看日誌檔案瞭解詳細錯誤
-3. 確認以管理員權限運行程式
-4. 檢查遠端軟體和網路狀態
+**💡 小提示**: 建議先使用檢測工具確認系統狀態，再啟動監控功能，這樣可以避免大部分的問題！
 
 ---
+## 📄 授權
 
-**💡 小提示**: 建議先使用檢測工具確認系統狀態，再啟動監控功能，這樣可以避免大部分的問題！
+本專案採用 MIT 授權條款 [MIT License](https://github.com/kuroneko11375/NetworkMonitor/blob/main/LICENSE).
+
