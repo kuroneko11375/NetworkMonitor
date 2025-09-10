@@ -1,0 +1,22 @@
+{
+    "max_reboots": 2,
+    "check_interval": 30,
+    "log_file": "network_monitor.log",
+    "reboot_cooldown": 3600,
+    "test_hosts": [
+        "8.8.8.8",
+        "1.1.1.1",
+        "google.com"
+    ],
+    "remote_software_processes": [
+        "teamviewer.exe",
+        "anydesk.exe",
+        "chrome_remote_desktop.exe",
+        "mstsc.exe",
+        "rdpclip.exe",
+        "vnc.exe",
+        "radmin.exe"
+    ],
+    "ping_timeout": 5,
+    "connection_failures_threshold": 3
+}
