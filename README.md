@@ -58,18 +58,6 @@ python network_monitor_gui.py
 - 🪟 **關閉視窗 → 自動縮小到系統匣**  
 - 🟢 綠色：正常、🔴 紅色：異常、🟡 黃色：警告
 
-### 4️⃣ 其他版本
-
-- 簡化命令列版（僅標準庫）：
-  ```powershell
-  python network_monitor_simple.py
-  ```
-- 完整命令列版：
-  ```powershell
-  pip install -r requirements.txt
-  python network_monitor.py
-  ```
-
 ## GUI版本操作區域
 
 - **狀態顯示區域**：網路狀態、遠端軟體、監控狀態、最後檢查時間、重啟統計
@@ -105,7 +93,8 @@ python network_monitor_gui.py
 - ✅ **啟動即自動監控**  
 - ✅ **去除重啟前確認對話框**：完全自動化  
 - ✅ **靜音子程序**：不再彈出命令提示視窗  
-- ✅ **更新說明文件**：更符合現況  
+- ✅ **更新說明文件**：更符合現況
+- ❗ **已移除簡化版本**
 
 ### v1.0.01 (2025-09-10)
 - 新增 Parsec / RustDesk / NoMachine 支援
