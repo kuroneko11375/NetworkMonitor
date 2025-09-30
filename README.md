@@ -16,14 +16,9 @@
 ## 檔案說明
 
 - `network_monitor_gui.py` - **🌟 GUI圖形介面版本（支援系統匣隱藏，自動監控）**
-- `network_monitor_simple.py` - 輕量命令列版
 - `network_monitor.py` - 完整命令列版（需安裝套件）
-- `test_detection.py` - **🧪 檢測測試工具**
 - `config.json` - 配置檔案
-- `start_gui.bat` - GUI版本啟動器（自動獲取管理員權限）
-- `start_monitor.bat` - 命令列版啟動器
-- `requirements.txt` - 依賴套件
-- `GUI_使用說明.md` - GUI詳細操作指南  
+
 
 ## 快速開始
 
@@ -76,14 +71,12 @@ python network_monitor_gui.py
 ## 安全與限制
 
 - **自動重啟**：無需再確認對話框  
-- **冷卻時間**：預設 1 小時，防止頻繁重啟  
 - **最大重啟次數**：預設 2 次，可自行修改  
 
 ## 常見問題
 
 - **需要管理員權限**：Windows 上執行重啟動作需要管理員權限  
 - **防毒軟體**：請將程式加入白名單避免阻擋  
-- **初次建議**：先用 `test_detection.py` 測試環境  
 - **重置重啟計數**：刪除 `gui_reboot_count.json`  
 
 ## 版本歷史 📅
